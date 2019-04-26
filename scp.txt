@@ -1,0 +1,7 @@
+###push files from source to destination
+scp file.txt username@to_host:/remote/directory/
+scp ogtest.txt root@SVAKSA69901MSH:/root/7-7-2018.intellinx.OG.backup
+
+###pull files from source to destination's current directory
+scp username@to_host:/remote/directory/file.txt .
+scp root@vmaksa69901msh:/opt/intellinx/ic/520/logs/InvestigationCenter.log .
